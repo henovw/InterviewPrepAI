@@ -1,0 +1,13 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'mainpage/style.css' %}">
+
+<div class="title">
+    <h1>AI Interview Practice</h1> <br>
+</div>
+<div class="title">
+    <p>Created by Henry van Weelderen</p>
+</div>
+<br>
+<div class="answers">
+{{ output|safe }}
+</div>

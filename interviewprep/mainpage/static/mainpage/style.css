@@ -1,0 +1,35 @@
+p {
+    font-stretch: condensed;
+    font-family:monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    background-color: white;
+    font-size: 16;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.answers {
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
